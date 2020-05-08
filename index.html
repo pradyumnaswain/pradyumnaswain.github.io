@@ -688,7 +688,27 @@
 	<script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAzM64OEpCQ3p58N2e-xsivVLOcPovq8xQ",
+    authDomain: "pradyumnaswain-f4721.firebaseapp.com",
+    databaseURL: "https://pradyumnaswain-f4721.firebaseio.com",
+    projectId: "pradyumnaswain-f4721",
+    storageBucket: "pradyumnaswain-f4721.appspot.com",
+    messagingSenderId: "153599615121",
+    appId: "1:153599615121:web:ebbcf7e28805b27ac15f30",
+    measurementId: "G-YJYSGLLP89"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
-
 </html>
